@@ -48,3 +48,6 @@ prisma/*.db-journal
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.gh-auth.out
+._*
+.DS_Store
