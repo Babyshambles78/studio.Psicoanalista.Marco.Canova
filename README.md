@@ -61,3 +61,12 @@ Le richieste restano *in attesa* finché non vengono confermate o annullate. L�
 Non usare la password di esempio. Imposta `ADMIN_PASSWORD` e `AUTH_SECRET` forti. SQLite va bene per un singolo processo; per un deploy con più istanze serve un database condiviso.
 
 Il sito WordPress locale in `Studio/marco-canova-psicoanalista` non fa parte di questo progetto e non va modificato da qui.
+
+
+## App iOS / Android
+
+Cartella `mobile/`: app Expo che apre il sito in WebView.
+
+- Bundle ID / package: `it.marcocanova.studio`
+- Sito: https://studio-psicoanalista-marco-canova.vercel.app
+- Build cloud: Expo EAS (`eas build`)
