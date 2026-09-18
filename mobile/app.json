@@ -14,10 +14,10 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "it.marcocanova.studio",
-      "buildNumber": "1",
       "infoPlist": {
         "NSCameraUsageDescription": "Non usiamo la fotocamera. Voce richiesta da linee guida store.",
-        "NSPhotoLibraryUsageDescription": "Non accediamo alle foto. Voce richiesta da linee guida store."
+        "NSPhotoLibraryUsageDescription": "Non accediamo alle foto. Voce richiesta da linee guida store.",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
@@ -25,15 +25,14 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#f7f4ef"
       },
-      "package": "it.marcocanova.studio",
-      "versionCode": 1
+      "package": "it.marcocanova.studio"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": ""
+        "projectId": "2946fccc-0f95-432e-ade3-23241a990a9b"
       }
     },
     "owner": "babyshambles78"
