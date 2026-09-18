@@ -1,13 +1,12 @@
-import { StatusBar } from "expo-status-bar";
-import { ActivityIndicator, SafeAreaView, StyleSheet, View } from "react-native";
-import { WebView } from "react-native-webview";
-import { useState } from "react";
+import { useState } from 'react';
+import { ActivityIndicator, SafeAreaView, StyleSheet, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+import { WebView } from 'react-native-webview';
 
-const SITE_URL = "https://studio-psicoanalista-marco-canova.vercel.app";
+const SITE_URL = 'https://studio-psicoanalista-marco-canova.vercel.app';
 
 export default function App() {
   const [loading, setLoading] = useState(true);
-
   return (
     <SafeAreaView style={styles.safe}>
       <StatusBar style="dark" />
@@ -33,13 +32,13 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  safe: { flex: 1, backgroundColor: "#f7f4ef" },
+  safe: { flex: 1, backgroundColor: '#f7f4ef' },
   container: { flex: 1 },
   webview: { flex: 1 },
   loader: {
     ...StyleSheet.absoluteFillObject,
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "rgba(247,244,239,0.6)",
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'rgba(247,244,239,0.6)',
   },
 });

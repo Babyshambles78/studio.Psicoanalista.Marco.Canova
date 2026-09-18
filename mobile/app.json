@@ -6,26 +6,21 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#f7f4ef"
-    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "it.marcocanova.studio",
       "infoPlist": {
-        "NSCameraUsageDescription": "Non usiamo la fotocamera. Voce richiesta da linee guida store.",
-        "NSPhotoLibraryUsageDescription": "Non accediamo alle foto. Voce richiesta da linee guida store.",
         "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
+      "package": "it.marcocanova.studio",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#f7f4ef"
-      },
-      "package": "it.marcocanova.studio"
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"

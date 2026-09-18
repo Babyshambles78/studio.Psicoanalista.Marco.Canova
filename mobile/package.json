@@ -1,24 +1,19 @@
 {
-  "name": "studio-marco-canova-app",
+  "name": "studio-mobile-v2",
   "version": "1.0.0",
-  "private": true,
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index.js",
+  "dependencies": {
+    "expo": "~57.0.24",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-webview": "13.16.1"
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "build:android": "eas build --platform android --profile production",
-    "build:ios": "eas build --platform ios --profile production"
+    "web": "expo start --web"
   },
-  "dependencies": {
-    "expo": "~53.0.0",
-    "expo-status-bar": "~2.2.3",
-    "react": "19.0.0",
-    "react-native": "0.79.2",
-    "react-native-webview": "^13.13.5"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.25.0",
-    "babel-preset-expo": "^57.0.12"
-  }
+  "private": true
 }
