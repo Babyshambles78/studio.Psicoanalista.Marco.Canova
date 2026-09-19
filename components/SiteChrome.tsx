@@ -50,6 +50,11 @@ export function SiteFooter() {
             </a>
           </p>
           <p>
+            <Link className="text-xs uppercase tracking-wider hover:text-ink" href="/privacy">
+              Privacy
+            </Link>
+          </p>
+          <p>
             <Link className="text-xs uppercase tracking-wider hover:text-ink" href="/admin/login">
               Area riservata
             </Link>
